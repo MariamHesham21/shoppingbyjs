@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html leng="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js project1</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link  rel="stylesheet" href="./css/all.css">
+  </head>
+  <body>
+   <!--------- Header ----------->
+    <header>
+      <div class="header-container">
+        <img src="https://gourmetegypt.com/static/version1689040718/frontend/Gourmet-egypt/ge-theme/default/images/logo.svg" alt="logo" class="logo" id="logo">
+        <div class="searchinput" >
+          <input type="search" placeholder="What are you looking for?...">
+        </div>
+        <nav>
+          <ul class="icons-list">
+            <li><i class="fa-solid fa-heart"></i></li>
+            <li><i class="fa-solid fa-cart-shopping" id="openshop"></i></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!---------MAIN ------------>
+    <main>
+      <div class="container">
+        <div class="category">
+          <button class="cate-btn">All</button>
+          <button class="cate-btn veg">vegetables</button>
+          <button class="cate-btn">fruits</button>
+        </div>
+        <div class="product-items">
+          <div class="card"  price = "15L.E " name="Cucumber ">
+            <img src="https://res.cloudinary.com/sivadass/image/upload/v1493620046/dummy-products/cucumber.jpg" alt="card" class="card-img">
+            <div class="card-info"  >
+              <h2 class="h2">Cucumber</h2>
+              <p>15 L.E</p>
+            </div>
+            <button class="card-btn" id="card-btn">Add to cart</button>
+          </div>
+          <div class="card" price = "50L.E " name="Mango ">
+            <img src="https://res.cloudinary.com/sivadass/image/upload/v1493620045/dummy-products/mango.jpg" alt="card" class="card-img">
+            <div class="card-info" id="card-info">
+              <h2>Mango</h2>
+              <p>50 L.E</p>
+            </div>
+            <button class="card-btn">Add to cart</button>
+          </div>
+          <div class="card" price = "8L.E " name="Tomato ">
+            <img src="https://res.cloudinary.com/sivadass/image/upload/v1493620045/dummy-products/tomato.jpg" alt="card" class="card-img">
+            <div class="card-info">
+              <h2>Tomato</h2>
+              <p>8 L.E</p>
+            </div>
+            <button class="card-btn">Add to cart</button>
+          </div>
+          <div class="card" price = "18L.E " name="Potato ">
+            <img src="https://res.cloudinary.com/sivadass/image/upload/v1493620045/dummy-products/potato.jpg" alt="card" class="card-img">
+            <div class="card-info">
+              <h2>Potato</h2>
+              <p>18 L.E</p>
+            </div>
+            <button class="card-btn">Add to cart</button>
+          </div>
+          <div class="card" price = "75L.E " name="Raspberry ">
+            <img src="https://res.cloudinary.com/sivadass/image/upload/v1493620045/dummy-products/raspberry.jpg" alt="card" class="card-img">
+            <div class="card-info">
+              <h2>Raspberry</h2>
+              <p>75 L.E</p>
+            </div>
+            <button class="card-btn">Add to cart</button>
+          </div>
+          <div class="card" price = "25L.E " name="Grapes ">
+            <img src="https://res.cloudinary.com/sivadass/image/upload/v1493620045/dummy-products/grapes.jpg" alt="card" class="card-img">
+            <div class="card-info">
+              <h2>Grapes </h2>
+              <p>25 L.E</p>
+            </div>
+            <button class="card-btn">Add to cart</button>
+          </div>
+          <div class="card" price = "25L.E " name="Mushroom ">
+            <img src="https://res.cloudinary.com/sivadass/image/upload/v1493620045/dummy-products/button-mushroom.jpg" alt="card" class="card-img">
+            <div class="card-info">
+              <h2>Mushroom</h2>
+              <p>25 L.E</p>
+            </div>
+            <button class="card-btn">Add to cart</button>
+          </div>
+          <div class="card" price = "35L.E " name="Zucchini " cate="vag">
+            <img src="https://gourmetegypt.com/media/catalog/product/6/0/6046330000000.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=300&width=240&canvas=240:300" alt="card" class="card-img">
+            <div class="card-info">
+              <h2>Zucchini</h2>
+              <p>35 L.E</p>
+            </div>
+            <button class="card-btn">Add to cart</button>
+          </div>
+          <div class="card" price = "34L.E " name="Corn "  cate="vag">
+            <img src="https://res.cloudinary.com/sivadass/image/upload/v1493620045/dummy-products/corn.jpg" alt="card" class="card-img">
+            <div class="card-info">
+              <h2>Corn </h2>
+              <p>34 L.E</p>
+            </div>
+            <button class="card-btn">Add to cart</button>
+          </div>
+          <div class="card" price = "20L.E " name="Strawberry ">
+            <img src="https://res.cloudinary.com/sivadass/image/upload/v1493620045/dummy-products/strawberry.jpg" alt="card" class="card-img">
+            <div class="card-info">
+              <h2>Strawberry</h2>
+              <p>20 L.E</p>
+            </div>
+            <button class="card-btn">Add to cart</button>
+          </div>
+          <div class="card" price = "5L.E " name="Onion ">
+            <img src="https://gourmetegypt.com/media/catalog/product/6/0/6046350000004.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=300&width=240&canvas=240:300" alt="card" class="card-img">
+            <div class="card-info">
+              <h2>Onion </h2>
+              <p>5 L.E</p>
+            </div>
+            <button class="card-btn">Add to cart</button>
+          </div>
+          <div class="card" price = "60L.E " name="Garlic ">
+            <img src="https://gourmetegypt.com/media/catalog/product/6/2/6224008136552.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=300&width=240&canvas=240:300" alt="card" class="card-img">
+            <div class="card-info">
+              <h2>Garlic</h2>
+              <p>60L.E</p>
+            </div>
+            <button class="card-btn">Add to cart</button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- ---------SECTION-shoping---------->
+    <section>
+      <div class="shopping-cart" id="shopping-cart">
+        <div class="xmark" id="closeshop">
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+        <h1>cart shopping</h1>
+        <div class="shopping-list"></div>
+        <button class="total-price" id="total-price"> total price</button>
+        <div class="show-total" id="show-total"></div>
+      </div>
+    </section>
+    <!----------Footer---------->
+
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
